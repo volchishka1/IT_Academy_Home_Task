@@ -5,6 +5,7 @@ while (true) {
     do {
         surname = prompt("Введите вашу фамилию")
         is_empty_surname = surname === "" ? (
+        // is_empty_surname = surname !== null && surname.trim() === "" ? ( проверка на null
             alert("Поле не должно быть пустым"),
             true
         ) : (
