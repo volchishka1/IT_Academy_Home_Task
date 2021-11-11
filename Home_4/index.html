@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+
+</head>
+<body>
+
+
+    <input type="text" id="userId">
+    <label for="userId">User Id</label>
+    <br>
+    <input type="text" id="id">
+    <label for="id">Id</label>
+    <br>
+    <input type="text" id="title">
+    <label for="title">Title</label>
+    <br>
+    <input type="text" id="completed">
+    <label for="completed">Completed</label>
+    <br>
+    <br>
+    <input type="button" value="Create" id="btn" onclick="getValue()">
+    <br>
+    <br>
+    <div>
+        <input type="button" value="Sorted" id="btn" onclick="todosSort()">
+        <select name="" id="choise">
+            <option value="userId">User Id</option>
+            <option value="id">Id</option>
+            <option value="title">Title </option>
+            <option value="completed">Completed</option>
+        </select>
+    </div>
+    
+    <div id="todos"></div>
+
+
+</form>
+
+    <script src="app.js">
+
+    </script>
+
+</body>
+</html>

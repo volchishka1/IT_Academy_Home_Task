@@ -1,0 +1,15 @@
+#todos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+#todo {
+    width: 200px;
+    border: 2px solid rebeccapurple;
+    padding: 5px;
+
+}
+
+
