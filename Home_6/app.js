@@ -6,7 +6,7 @@ function squareRoots(a,b,c) {
     var d=b*b-4*a*c; // дискриминант
 
     if ( a==0 )
-        return []
+        return [b/c]
     
     if ( d<0 )
         return []; // нет корней

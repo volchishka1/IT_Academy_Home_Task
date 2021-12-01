@@ -13,13 +13,20 @@ const vowelsCounter = (countVowels) => {
         "ю": 0,
         "я": 0
     };
-
+    let getVowels = {}
     for (var i = 0; i < vowelsInput.length; i++) {
         var vowel = vowelsInput[i].toLowerCase();
         if (vowel in countVowels)
         countVowels[vowel]++;
     }
-    return (countVowels)
+
+    for (const [k, v] of Object.entries(countVowels)) {
+        if (v > 0) {
+            getVowels[k] = v
+        }
+    }   
+
+    return (getVowels)
 }
 
 console.log(vowelsCounter(vowelsInput))
