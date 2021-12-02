@@ -78,11 +78,11 @@ function createLi() {
     const inputValue = document.createElement("input")
     inputValue.setAttribute("name", "value")
     li.appendChild(inputText)
-    .appendChild(textLabel)
-    .appendChild(inputProp)
-    .appendChild(propLabel)
-    .appendChild(inputValue)
-    .appendChild(valueLabel)
+    li.appendChild(textLabel)
+    li.appendChild(inputProp)
+    li.appendChild(propLabel)
+    li.appendChild(inputValue)
+    li.appendChild(valueLabel)
     ul.appendChild(li)
     
 }
