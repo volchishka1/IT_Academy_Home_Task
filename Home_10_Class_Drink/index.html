@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form name="DRINKS" id="drinksForm" action="app_1.js">
+        
+        Введите название напитка: <input type=text name="drinkName"><br><br>
+        Выберите алкогольный ли напиток: <input type=checkbox name="drinkView"><br><br>
+        Опишите рецепт напитка: <input type=text name="drinkComponent"><br><br>
+
+        <br>
+        <input type="button" onclick="createDrink()" value="Добавить">
+        <input type="button" onclick="getDrinkInfo()" value="Получить информацию о напитке">
+        <input type="button" onclick="deleteDrink()" value="Удалить информацию о напитке">
+        <input type="button" onclick="showDrinks()" value="Показать напитки">
+    </form>
+
+    <div id="forForm">
+
+    </div>
+    <script src="app1.js">
+
+
+
+
+    </script>
+</body>
+</html>

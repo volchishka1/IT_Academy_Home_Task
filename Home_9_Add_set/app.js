@@ -64,7 +64,7 @@ function createP() {
 function createLi() {
     const ul = document.getElementById("ul_1")
     const li = document.createElement("li")
-    li.setAttribute("class", "liItem")
+    li.className = "liItem"
     const textLabel = document.createElement('label')
     textLabel.textContent = ' text '
     const propLabel = document.createElement('label')
@@ -72,11 +72,11 @@ function createLi() {
     const valueLabel = document.createElement('label')
     valueLabel.textContent = ' value '
     const inputText = document.createElement("input")
-    inputText.setAttribute("name", "text")
+    inputText.name = "text"
     const inputProp = document.createElement("input")
-    inputProp.setAttribute("name", "prop")
+    inputProp.name = "prop"
     const inputValue = document.createElement("input")
-    inputValue.setAttribute("name", "value")
+    inputValue.name = "value"
     li.appendChild(inputText)
     li.appendChild(textLabel)
     li.appendChild(inputProp)
