@@ -1,0 +1,48 @@
+body {
+    background: url("images/face.jpg");
+    background-size: cover;
+}
+
+img {
+    position: absolute;
+    right: 520px;
+    top: 150px;
+}
+
+a {
+    color: rgb(55, 16, 133);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(55, 16, 133);
+}
+
+a:active {
+    color: teal;
+}
+
+span {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(68, 28, 148);
+    font-size: x-large;
+}
+
+#verified {
+    float: right;
+    width: 20em;
+    border: 1px solid rgb(42, 8, 110);
+    box-shadow: 8px 8px 5px rgb(123, 76, 218);
+    padding: 8px 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    vertical-align: middle;
+}
+
+#notVerified {
+    float: left;
+    width: 20em;
+    border: 1px solid rgb(42, 8, 110);
+    box-shadow: 8px 8px 5px rgb(123, 76, 218);
+    padding: 8px 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
