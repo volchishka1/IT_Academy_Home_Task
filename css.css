@@ -1,12 +1,6 @@
 body {
-    background: url("images/face.jpg");
+    background: url("images/face_2.svg");
     background-size: cover;
-}
-
-img {
-    position: absolute;
-    right: 520px;
-    top: 150px;
 }
 
 a {
@@ -22,9 +16,15 @@ a:active {
     color: teal;
 }
 
-span {
+#ver {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(68, 28, 148);
+    color: rgba(21, 97, 5, 0.808);
+    font-size: x-large;
+}
+
+#noVer {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(168, 34, 24, 0.808);
     font-size: x-large;
 }
 
