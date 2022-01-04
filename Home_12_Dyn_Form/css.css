@@ -1,0 +1,31 @@
+* {
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Roboto', sans-serif;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.main {
+    background-image: 
+    url(https://img4.goodfon.ru/wallpaper/nbig/5/82/khrizantemy-tsvety-fon-chrysanthemums-flowers-background.jpg);
+}
+
+.app {
+    padding: 5px;
+    border: solid;
+    color: yellowgreen;
+    width: 500px;
+    border-radius: 15px;
+
+}
+
+label {
+    display: inline-block;
+    width: 170px;
+}
+textarea {
+    display: block;
+}
